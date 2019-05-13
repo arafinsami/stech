@@ -1,0 +1,29 @@
+buildscript {
+    ext {
+        springBootVersion = '2.1.4.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'io.spring.dependency-management'
+
+jar {
+    baseName = 'repository'
+    version = '1.0.0-SNAPSHOT'
+}
+
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('org.springframework.boot:spring-boot-starter-data-mongodb')
+}
+
+dependencyManagement {
+    imports { mavenBom("org.springframework.boot:spring-boot-dependencies:${springBootVersion}") }
+}

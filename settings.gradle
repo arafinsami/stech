@@ -1,0 +1,14 @@
+pluginManagement {
+	repositories {
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'stech'
+include 'stech-api'
+include 'stech-app'
+include 'core-service'
+include 'service'
+include 'repository'
+include 'domain'
+include 'dto'
+include 'utils'

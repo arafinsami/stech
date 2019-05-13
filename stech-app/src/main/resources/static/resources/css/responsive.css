@@ -1,0 +1,378 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.navbar-toggler { margin-right: 0px;}
+.navbar-dark .navbar-toggler-icon {
+background: url(../images/micon.png) no-repeat center;
+cursor:pointer; 
+    
+}
+.formobileShow{ display:block;}
+.secondnavbar,.formobileHide{ display:none;}
+
+.navbar-dark .navbar-brand {  margin-left: 20px;}
+.navbar-nav {
+    background: #fff;
+    border: 1px solid #D7D7D7;
+    padding:0px;
+	margin:10px 20px!important;
+}
+.navbar-nav > li {
+    float: left;
+    padding: 0px;
+    width: 100%;
+	border-top: 1px solid #D7D7D7;
+}
+
+.mainNavgation .navbar-nav a.nav-link {
+    padding:6px 15px;
+    width: 100%;
+    border: 1px solid #D7D7D7;
+	border-bottom:none;
+
+}
+.mainNavgation .navbar-dark .navbar-nav .nav-link:hover {}
+.shapeIconOne { margin-left: -25px;}
+.logoList h3{ display:none;}
+
+.homeBanner {  margin-top: 56px; height:auto!important; padding-bottom:50px;}
+.homeBanner h1 {  font-size: 35px; line-height: normal;}
+.categorySection h2 { font-size: 28px; line-height: normal;}
+.serviceSection h2 { font-size: 28px; line-height: normal;}
+.videoTestimonialSection h2 { font-size: 25px; line-height: 35px; padding:0px;}
+.mainNavgation .navbarLight {  padding:10px 0;}
+/*======================Login page page start here====================*/
+.createAccountSection{	width:100%;}	
+
+
+
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+
+
+.navbar-toggler { margin-right: 0px;}
+.navbar-dark .navbar-toggler-icon {
+background: url(../images/micon.png) no-repeat center;
+cursor:pointer; 
+    
+}
+.formobileShow{ display:block;}
+.secondnavbar,.formobileHide{ display:none;}
+
+.navbar-dark .navbar-brand {  margin-left: 20px;}
+.navbar-nav {
+    background: #fff;
+    border: 1px solid #D7D7D7;
+    padding:0px;
+	margin:10px 20px!important;
+}
+.navbar-nav > li {
+    float: left;
+    padding: 0px;
+    width: 100%;
+	border-top: 1px solid #D7D7D7;
+}
+
+.mainNavgation .navbar-nav a.nav-link {
+    padding:6px 15px;
+    width: 100%;
+    border: 1px solid #D7D7D7;
+	border-bottom:none;
+
+}
+.mainNavgation .navbar-dark .navbar-nav .nav-link:hover {}
+.shapeIconOne { margin-left: -25px;}
+.logoList h3{ display:none;}
+
+.homeBanner {  margin-top: 56px; height:auto!important; padding-bottom:50px;}
+.homeBanner h1 {  font-size: 35px; line-height: normal;}
+.categorySection h2 { font-size: 28px; line-height: normal;}
+.serviceSection h2 { font-size: 28px; line-height: normal;}
+.videoTestimonialSection h2 { font-size: 25px; line-height: 35px; padding:0px;}
+.mainNavgation .navbarLight {  padding:10px 0;}
+/*======================Login page page start here====================*/
+.createAccountSection{	width:100%;}	
+
+
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.navbar-toggler { margin-right: 0px;}
+.navbar-dark .navbar-toggler-icon {
+background: url(../images/micon.png) no-repeat center;
+cursor:pointer; 
+    
+}
+.formobileShow{ display:block;}
+.secondnavbar,.formobileHide{ display:none;}
+
+.navbar-dark .navbar-brand {  margin-left: 20px;}
+.navbar-nav {
+    background: #fff;
+    border: 1px solid #D7D7D7;
+    padding:0px;
+	margin:10px 20px!important;
+}
+.navbar-nav > li {
+    float: left;
+    padding: 0px;
+    width: 100%;
+	border-top: 1px solid #D7D7D7;
+}
+
+.mainNavgation .navbar-nav a.nav-link {
+    padding:6px 15px;
+    width: 100%;
+    border: 1px solid #D7D7D7;
+	border-bottom:none;
+
+}
+.mainNavgation .navbar-dark .navbar-nav .nav-link:hover {}
+.shapeIconOne { margin-left: -25px;}
+.logoList h3{ display:none;}
+
+.homeBanner {  margin-top: 56px; height:auto!important; padding-bottom:50px;}
+.homeBanner h1 {  font-size: 35px; line-height: normal;}
+.categorySection h2 { font-size: 28px; line-height: normal;}
+.serviceSection h2 { font-size: 28px; line-height: normal;}
+.videoTestimonialSection h2 { font-size: 25px; line-height: 35px; padding:0px;}
+.mainNavgation .navbarLight {  padding:10px 0;}
+.caseMainarea .useCase::before {  margin-bottom: 20px;}
+.useCase{ margin-bottom:20px;}
+.caseMainarea h3 {  font-size: 21px; text-align:center; padding-bottom:25px;}
+.footerList {  margin-left: 4%;}
+.footer-social-icons h2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+	display:inherit;
+}
+.footer-download {  text-align: center;}
+.socialIcon {
+	display:inherit;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+.socialIcon li a {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+}
+.footerList h4 {  margin: 20px 0 4px;}
+.footerList span {  padding-bottom: 20px;}
+.footerList p { margin: 5px 10px 0px 0;}
+.serviceSection,.categorySection {  padding: 30px 0;}
+.searchBtn {   width: 55%;}
+
+.navbar .mobileHeight{
+    height: 150px;
+    overflow-y: scroll;
+	padding-bottom:20px;
+}
+/*======================Login page page start here====================*/
+.createAccountSection{	width:100%;}	
+
+
+}
+
+
+@media (max-width: 575px){
+
+
+
+.navbar-toggler { margin-right: 0px;}
+.navbar-dark .navbar-toggler-icon {
+background: url(../images/micon.png) no-repeat center;
+cursor:pointer; 
+    
+}
+.formobileShow{ display:block;}
+.secondnavbar,.formobileHide{ display:none;}
+
+.navbar-dark .navbar-brand {  margin-left: 20px;}
+.navbar-nav {
+    background: #fff;
+    border: 1px solid #D7D7D7;
+    padding:0px;
+	margin:10px 20px!important;
+}
+.navbar-nav > li {
+    float: left;
+    padding: 0px;
+    width: 100%;
+	border-top: 1px solid #D7D7D7;
+}
+
+.mainNavgation .navbar-nav a.nav-link {
+    padding:6px 15px;
+    width: 100%;
+    border: 1px solid #D7D7D7;
+	border-bottom:none;
+
+}
+.mainNavgation .navbar-dark .navbar-nav .nav-link:hover {}
+.shapeIconOne { margin-left: -25px;}
+.logoList h3{ display:none;}
+
+.homeBanner {  margin-top: 56px; height:auto!important; padding-bottom:50px;}
+.homeBanner h1 {  font-size: 35px; line-height: normal;}
+.categorySection h2 { font-size: 28px; line-height: normal;}
+.serviceSection h2 { font-size: 28px; line-height: normal;}
+.videoTestimonialSection h2 { font-size: 25px; line-height: 35px; padding:0px;}
+.mainNavgation .navbarLight {  padding:10px 0;}
+.caseMainarea .useCase::before {  margin-bottom: 20px;}
+.useCase{ margin-bottom:20px;}
+.caseMainarea h3 {  font-size: 21px; text-align:center; padding-bottom:25px;}
+.footerList {  margin-left: 4%;}
+.footer-social-icons h2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+	display:inherit;
+}
+.footer-download {  text-align: center;}
+.socialIcon {
+	display:inherit;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+.socialIcon li a {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+}
+.footerList h4 {  margin: 20px 0 4px;}
+.footerList span {  padding-bottom: 20px;}
+.footerList p { margin: 5px 10px 0px 0;}
+.ctaSection h3 { font-size: 23px; margin: 0px 0 15px;}
+.serviceSection,.categorySection {  padding: 30px 0;}
+.searchBtn {   width: 55%;}
+
+.navbar .mobileHeight{
+    height: 150px;
+    overflow-y: scroll;
+	padding-bottom:20px;
+}
+/*======================Login page page start here====================*/
+.createAccountSection{	width:100%;}	
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 350px){
+
+
+
+
+.navbar-toggler { margin-right: 0px;}
+.navbar-dark .navbar-toggler-icon {
+background: url(../images/micon.png) no-repeat center;
+cursor:pointer; 
+    
+}
+.formobileShow{ display:block;}
+.secondnavbar,.formobileHide{ display:none;}
+
+.navbar-dark .navbar-brand {  margin-left: 20px;}
+.navbar-nav {
+    background: #fff;
+    border: 1px solid #D7D7D7;
+    padding:0px;
+	margin:10px 20px!important;
+}
+.navbar-nav > li {
+    float: left;
+    padding: 0px;
+    width: 100%;
+	border-top: 1px solid #D7D7D7;
+}
+
+.mainNavgation .navbar-nav a.nav-link {
+    padding:6px 15px;
+    width: 100%;
+    border: 1px solid #D7D7D7;
+	border-bottom:none;
+
+}
+.mainNavgation .navbar-dark .navbar-nav .nav-link:hover {}
+.shapeIconOne { margin-left: -25px;}
+.logoList h3{ display:none;}
+
+.homeBanner {  margin-top: 56px; height:auto!important; padding-bottom:50px; background:#fff;}
+.homeBanner h1 {  font-size: 31px; line-height: normal; font-weight:400;}
+.categorySection h2 { font-size: 24px; line-height: normal;font-weight:400;}
+.serviceSection h2 { font-size: 24px; line-height: normal;}
+.videoTestimonialSection h2 { font-size: 25px; line-height: 35px; padding:0px;}
+.mainNavgation .navbarLight {  padding:10px 0;}
+.caseMainarea .useCase::before {  margin-bottom: 20px;}
+.useCase{ margin-bottom:20px;}
+.caseMainarea h3 {  font-size: 21px; text-align:center; padding-bottom:25px;}
+
+.footerList {  margin-left: 4%;}
+.footer-social-icons h2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+	display:inherit;
+}
+.footer-download {  text-align: center;}
+
+.socialIcon {
+	display:inherit;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+.socialIcon li a {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+}
+.footerList h4 {  margin: 20px 0 4px;}
+.footerList span {  padding-bottom: 20px;}
+.footerList p { margin: 5px 10px 0px 0;}
+.ctaSection h3 { font-size: 23px; margin: 0px 0 15px;}
+.serviceSection p.headerTittle {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0 0 50px;
+}
+.serviceSection,.categorySection {  padding: 30px 0;}
+
+.searchBtn {   width: 55%;}
+.navbar .mobileHeight{
+    height: 150px;
+    overflow-y: scroll;
+	padding-bottom:20px;
+}
+/*======================Login page page start here====================*/
+.createAccountSection{	width:100%;}	
+
+
+
+}
