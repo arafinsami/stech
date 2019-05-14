@@ -1877,15 +1877,15 @@ ul#menusecond ul.submenuSecond li a:hover{
 .modal-title{	font-size:21px; font-weight:500;}
 .costumModalSameSecond .modal-body {   padding:0;}
 
-.searchBtn{
+.searchbtnSecond{
 	width:100%;
 	position:relative;
 	padding-bottom:50px;
 }
 
-.searchBtn i{ position:absolute; top:14px; left:17px;}
+.searchbtnSecond i{ position:absolute; top:14px; left:17px;}
 
-.searchBtn input.form-control{
+.searchbtnSecond input.form-control{
 	background: none;
     height: 42px;
     -moz-border-radius: 2px;
